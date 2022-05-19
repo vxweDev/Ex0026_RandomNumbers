@@ -29,7 +29,7 @@ public class Client {
 
             for (int i = 0; i < result.length; i++) {
                 numbers[i] = Integer.parseInt(result[i]);
-                System.out.println(String.format("%-3s|%-3s", i + 1, numbers[i]));
+                System.out.println(String.format("%-3s| %-3s", i + 1, numbers[i]));
             }
         } while (!input.equals("exit"));
     }
